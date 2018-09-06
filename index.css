@@ -1,0 +1,160 @@
+body {
+    height: 800px;
+    width: 1280px;
+}
+/*#box {
+    background-color: #364b56;
+    min-height: 700px;
+}*/
+#main-box {
+    border-radius: 5px;
+    min-height: 445px;
+    width: 400px;
+    background-color: white;
+    position: absolute;
+    top: 160px;
+    left: 440px;
+}
+#logo-box {
+    height: 80px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #1677cb;
+}
+#logo {
+    border-top-left-radius: 5px;
+    background: url("images/logo.jpg") no-repeat;
+    height: 78px;
+    width: 135px;
+    padding-left: 10px;
+    display: inline-block;
+    float: left;
+}
+#logo-text1 {
+    margin-top: 10px;
+    color: white;
+    font: 26px "Segoe UI";
+    display: inline-block;
+    font-weight: 600;
+}
+#logo-text2 {
+    color: white;
+    font: 12px "Segoe UI";
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: 0.5;
+    font-weight: 600;
+}
+#login-register {
+    width:100%;
+    margin: 0;
+    text-align: center;
+    font-size: 0;
+}
+#login-register ul {
+    padding: 0;
+    display: inline-block;
+}
+li.login {
+    display: inline-block;
+}
+.login a {
+    font: 18px "Point Sample";
+    font-weight: 600;
+    text-align: center;
+    padding: 12px 70px;
+    color: #c5c5c5;
+    vertical-align: middle;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 2px solid #c5c5c5;
+}
+.login a:hover {
+    font: 18px "Point Sample";
+    font-weight: 600;
+    text-align: center;
+    padding: 12px 70px;
+    vertical-align: middle;
+    color: #1677cb;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 2px solid #1677cb;
+    }
+#inputs {
+    width: 300px;
+    margin: 0 auto;
+   }
+.username-pwd {
+    margin: 15px 0;
+   font: bold 12px "Segoe UI";
+    text-transform: uppercase;
+    color: #b6b6b6;
+}
+.placeholder {
+    border: none;
+    width: 90%;
+    outline: none;
+    font: 16px "Segoe UI";
+    text-transform: capitalize;
+    padding: 10px 0 0 10px;
+    }
+.input-boxes {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #e1e1e1;
+    border-radius: 5px;
+}
+.checkbox {
+    height: 30px;
+    padding-top: 10px;
+    font: 14px "Segoe UI";
+    color: #b6b6b6;
+}
+.second {
+    width: 90%;
+    background-color: #1677cb;
+}
+input[type=submit] {
+    width: 100%;
+    height: 45px;
+    background-color: #1677cb;
+    color: white;
+    text-align: center;
+    font: 16px "Segoe UI";
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+#forgot {
+    height: 50px;
+    text-align: center;
+    font: 14px "Segoe UI";
+        }
+#forgot a {
+    margin-top: 15px;
+    color: #b6b6b6;
+    text-decoration: none;
+    display: inline-block;
+  }
+#last {
+    position: absolute;
+    top: 800px;
+    height: 30px;
+    width: 82%;
+    color: white;
+    font: 14px "Segoe UI";
+    text-align: center;
+}
+#last ul {
+    display: inline-block;
+}
+#last li {
+    list-style-type: circle;
+    display: inline-block;
+}
+#last a {
+    text-decoration: none;
+    color: white;
+}
